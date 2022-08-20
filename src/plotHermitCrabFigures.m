@@ -1,5 +1,7 @@
 function plotHermitCrabFigures(dpath)
-% PLOTHERMITCRABFIGURES
+% PLOTHERMITCRABFIGURES Plot responses of hermit crab species to visual stimuli
+
+% First argument, dpath (optional) must be a path to the directory containing the data
 
 arguments
     dpath {mustBeText, mustBeFolder} = fullfile("data");
