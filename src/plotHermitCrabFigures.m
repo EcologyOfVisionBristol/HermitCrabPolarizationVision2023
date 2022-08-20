@@ -266,8 +266,10 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Pagurus data
-xlsfile = 'C:\Users\mh13223\OneDrive - University of Bristol\marvefiles5\projects\CrabPolVision\20200522_PagurusPolExpt\PagurusDataForMartin.xlsx';
+xlsfile = fullfile("data", "Pagurus", "PagurusResponseData.xlsx");
 wksheet = 'Aggregated Data';
+
+%load binary response data
 binarydata = xlsread(xlsfile,wksheet,'AJ2:AR28');
 size(binarydata)
 for ll=1:size(binarydata,2)
@@ -289,7 +291,7 @@ text(0,0.9,...
   
 plot(polval,mloom,'ok','markersize',3,'markerfacecolor',[0.9 0.9 0.9])
 hold off
-set(gca,'ylim',[0 1],'box','on','tickdir','out')
+set(gca,'xlim', [-0.5, 0.5], 'ylim',[0 1],'box','on','tickdir','out')
 xlabel('DoLP contrast'); 
 %Presentation order
 rawdata = xlsread(xlsfile,wksheet,'C2:T28');
