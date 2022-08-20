@@ -1,4 +1,4 @@
-function mahedata
+function plotHermitCrabFigures()
 
 datadir = 'C:\Users\mh13223\OneDrive - University of Bristol\marvefiles5\projects\CrabPolVision\20200212_MaheCrabs\20200221_PurpleHermit_I';
 %datadir = 'C:\Users\mh13223\OneDrive - University of Bristol\marvefiles5\projects\CrabPolVision\20200212_MaheCrabs\20200213_PaleHermit3';
@@ -8,7 +8,7 @@ datadir = 'C:\Users\mh13223\OneDrive - University of Bristol\marvefiles5\project
 fpol='C:\Users\mh13223\OneDrive - University of Bristol\marvefiles5\projects\CrabPolVision\2016_Pol_vs_Intensity\Spain (November 16)\20161104_Dell1905fp_IP_calc.mat';
 load(fpol);
 
-figure(45); clf
+figure;
 set(gcf,'menubar','figure','color','w');
 dpath = 'C:\Users\mh13223\OneDrive - University of Bristol\marvefiles5\projects\CrabPolVision\20200212_MaheCrabs\';
 for pp=[1 2 4 5]
