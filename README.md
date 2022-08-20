@@ -4,8 +4,9 @@ Code and data for the paper:
 Martin J. How, Alasdair Robertson, Samuel P. Smithers, David Wilby
 
 # Requirements & dependencies
-* MATLAB R2016b or newer
-* `sigm_fit` function (provided at `src/sigm_fit`)
+* MATLAB R2016b or newer (most versions may work, but these are tested)
+* [`sigm_fit` function](https://uk.mathworks.com/matlabcentral/fileexchange/42641-sigm_fit) (provided at `src/sigm_fit`)
 
 # Running instructions
 1. Clone this repository
+2. Load the project file (ends in `.prj`, by double-clicking in MATLAB)
