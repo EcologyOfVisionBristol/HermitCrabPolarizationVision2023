@@ -7,7 +7,7 @@ This repository contains data and code (both R & MATLAB) for performing data ana
 ## Repository structure
 
     .
-    ├── data
+    ├── data/
     │   ├── 20200212_PaleHermitCrab2
     │   ├── 20200216_PaleHermit4_i
     │   ├── 20200218_PurpleHermit_P
@@ -15,8 +15,8 @@ This repository contains data and code (both R & MATLAB) for performing data ana
     │   ├── calibrations
     │   ├── Pagurus
     |   └── csv
-    ├── resources # MATLAB project configuration
-    ├── renv # renv data
+    ├── resources/ # MATLAB project configuration
+    ├── renv/ # renv data
     ├── src # source code
     |   ├── MATLAB/
     |   |   ├── plotHermitCrabFigures.m # MATLAB function for analysis & plotting
