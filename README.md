@@ -19,8 +19,8 @@ This repository contains data and code (both R & MATLAB) for performing data ana
     ├── renv # renv data
     ├── src # source code
     |   ├── MATLAB/
-    |       ├── plotHermitCrabFigures.m # MATLAB function for analysis & plotting
-    |       └── sigm_fit # MATLAB sigmoid fit function
+    |   |   ├── plotHermitCrabFigures.m # MATLAB function for analysis & plotting
+    |   |   └── sigm_fit # MATLAB sigmoid fit function
     |   └── R/
     |       └── 01_stats.R # statistical analysis R script
     ├── LICENSE.md
