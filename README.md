@@ -42,7 +42,8 @@ Instructions for plotting Figure 1: *Responses of hermit crab species to visual 
 
 1.  Clone this repository ([instructions here for MATLAB](https://uk.mathworks.com/help/simulink/ug/clone-git-repository.html))
 2.  Load the project file (`HermitCrabPolVisionMATLAB.prj`, by double-clicking in MATLAB)
-3.  Run the function `plotHermitCrabFigures` to process data and plot figure 1
+3.  Install any uninstalled dependencies, above.
+4.  Run the function `plotHermitCrabFigures` to process data and plot figure 1
 
 ## Statistical Analysis (R)
 
