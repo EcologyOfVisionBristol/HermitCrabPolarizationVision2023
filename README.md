@@ -33,6 +33,7 @@ This repository contains data and code (both R & MATLAB) for performing data ana
 ### Requirements & dependencies
 
 -   MATLAB R2016b or newer (most versions may work, but these are tested)
+-   [MATLAB Statistics and Machine Learning toolbox](https://uk.mathworks.com/products/statistics.html)
 -   [`sigm_fit` function](https://uk.mathworks.com/matlabcentral/fileexchange/42641-sigm_fit) (provided in this repo at `src/sigm_fit`)
 
 #### Running instructions
@@ -54,6 +55,7 @@ Instructions for plotting Figure 1: *Responses of hermit crab species to visual 
 
 0.  Set up git for Rstudio if necessary: [instructions](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html)
 1.  Clone this repository if you haven't already done so as above ([instructions for Rstudio here](https://datacarpentry.org/rr-version-control/03-git-in-rstudio/index.html))
-2.  Install the package [`renv`](https://rstudio.github.io/renv/articles/renv.html) if not already installed.
-3.  Run the command `renv::restore()` to install the required packages.
-4.  Source/run the `01_stats.R` script to reproduce the analysis.
+2. Load the R project - `HermitCrabPolarizationVision2022.Rproj`.
+3.  Install the package [`renv`](https://rstudio.github.io/renv/articles/renv.html) if not already installed.
+4.  Run the command `renv::restore()` to install the required packages.
+5.  Source/run the `01_stats.R` script to reproduce the analysis.
