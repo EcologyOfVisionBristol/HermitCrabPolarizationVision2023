@@ -26,6 +26,7 @@ This repository contains data and code (both R & MATLAB) for performing data ana
     ├── LICENSE.md
     ├── HermitCrabPolVisionMATLAB.prj # MATLAB project file
     ├── HermitCrabPolarizationVision.Rproj # R project file
+    ├── plotMATLABfigures.mlx # MATLAB live script for plotting figures
     └── README.md
 
 ## Experiment Analysis & Plotting (MATLAB)
