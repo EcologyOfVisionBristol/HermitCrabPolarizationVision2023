@@ -45,6 +45,8 @@ Instructions for plotting Figure 1: *Responses of hermit crab species to visual 
 3.  Install any uninstalled dependencies, above.
 4.  Run the function `plotHermitCrabFigures` to process data and plot figure 1
 
+Alternatively, open the live script `plotMATLABfigures.mlx` and run to reproduce the above steps.
+
 ## Statistical Analysis (R)
 
 ### Requirements & dependencies
