@@ -1,6 +1,6 @@
 Code and data for the paper:
 
-*Polarization vision in terrestrial hermit crabs* (in prep 2022) Martin J. How, Alasdair Robertson, Samuel P. Smithers, David Wilby
+[*Polarization vision in terrestrial hermit crabs* (2023) Martin J. How, Alasdair Robertson, Samuel P. Smithers, David Wilby, *J. Comp. Physiol A*](https://link.springer.com/article/10.1007/s00359-023-01631-z)
 
 This repository contains data and code (both R & MATLAB) for performing data analysis and plotting for the above paper.
 
