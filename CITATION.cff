@@ -1,0 +1,84 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Analysis for "Polarization vision in terrestrial hermit
+  crabs"
+message: >-
+  If you use this code or data, please cite it using the  
+  metadata from this file.
+type: software
+authors:
+  - given-names: Martin
+    name-particle: J
+    family-names: How
+    email: m.how@bristol.ac.uk
+    affiliation: University of Bristol
+    orcid: 'https://orcid.org/0000-0001-5135-8828'
+  - given-names: Alasdair
+    family-names: Robertson
+  - given-names: Samuel
+    name-particle: P
+    family-names: Smithers
+    affiliation: Northeastern University
+    orcid: 'https://orcid.org/0000-0002-2781-7067'
+  - given-names: David
+    family-names: Wilby
+    email: d.wilby@sheffield.ac.uk
+    affiliation: University of Sheffield
+    orcid: 'https://orcid.org/0000-0002-6553-8739'
+identifiers:
+  - type: doi
+    value: 10.1007/s00359-023-01631-z
+    description: Paper
+  - type: url
+    value: >-
+      https://github.com/EcologyOfVisionBristol/HermitCrabPolarizationVision2023
+    description: GitHub Repository
+repository-code: >-
+  https://github.com/EcologyOfVisionBristol/HermitCrabPolarizationVision2023
+abstract: >-
+  Polarization vision is used by a wide range of animals for
+  navigating, orienting, and detecting objects or areas of
+  interest.
+
+  Shallow marine and semi-terrestrial crustaceans are
+  particularly well known for their abilities to detect
+  predator-like or
+
+  conspecific-like objects based on their polarization
+  properties. On land, some terrestrial invertebrates use
+  polarization vision
+
+  for detecting suitable habitats, oviposition sites or
+  conspecifics, but examples of threat detection in the
+  polarization domain
+
+  are less well known. To test whether this also applies to
+  crustaceans that have evolved to occupy terrestrial
+  habitats, we
+
+  determined the sensitivity of two species of land and one
+  species of marine hermit crab to predator-like visual
+  stimuli varying
+
+  in the degree of polarization. All three species showed an
+  ability to detect these cues based on polarization
+  contrasts alone.
+
+  One terrestrial species, Coenobita rugosus, showed an
+  increased sensitivity to objects with a higher degree of
+  polarization
+
+  than the background. This is the inverse of most animals
+  studied to date, suggesting that the ecological drivers
+  for polarization vision may be different in the
+  terrestrial environment.
+keywords:
+  - Polarization
+  - Hermit crab
+  - Visual ecology
+  - Crustacean
+  - Vision
+license: GPL-3.0
